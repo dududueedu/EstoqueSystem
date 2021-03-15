@@ -3,7 +3,7 @@
     top: 0;
 }
 body{
-    background-color: rgba(213, 97, 101, 0.548);
+    background-color: rgba(213, 97, 101, 0.267);
     color: white;
     height: 100vh;
     display: flex;
@@ -12,6 +12,7 @@ body{
 }
 .carrinho {
     width: 274px;
+    background-color: #ffde59;
     right: 0; 
     border: 3px solid rgb(0, 0, 0);
     margin: 10px;
@@ -27,7 +28,7 @@ body{
     margin-right: 15px;
 }
 table {
-    background-color: rgba(213, 97, 101, 0.671);
+    background-color: #ffde59;
     border: 2px solid rgb(0, 0, 0); 
     border-radius: 10px;
     color:rgb(0, 0, 0);
@@ -40,9 +41,21 @@ table {
     align-items: center;
 }
 .titulo{
-    left: 0;
+    top: 0px;
+    left: 90px;
     position: absolute;
     color: black;
+    background-color: #ffde59;
+    padding: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+.cabecalho .imagem{
+    top: 0px;
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    left: 0px;
 }
 caption {
     font-weight: bold; 
